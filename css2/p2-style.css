@@ -11,7 +11,7 @@ p{
 	margin-right: 200px;
 }
 small{
-	color: #b69877;
+	color: #DDDDDD; 
 }
 small a, 
 p a{
@@ -29,7 +29,7 @@ header{
 	overflow: hidden;
 }
 header a{
-	color: #dddddd;
+	color: #b69877;
 	text-decoration: none;
 }
 header img{
