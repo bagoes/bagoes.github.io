@@ -1,3 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	background: firebrick;
+	margin: 30px 50px 10px;
+	padding: 20px 10px;
+	border-radius: 5px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+	border-top: 2px solid #f18c16;
+    border-bottom: 2px solid #f18c16;
+    margin: 10px 50px;
+    padding: 10px 0;
+}
+
 /* Css resets */
 * {
 	padding:0;
