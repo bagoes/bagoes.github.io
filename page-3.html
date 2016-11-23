@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Page 3</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css3/style3.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css"> 
+	<!-- buat manggil style bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css3/style3.css"> 
+	<!-- buat manggil style beranda -->
+	<link rel="stylesheet" type="text/css" href="css3/loader-style.css"> 
+	<!-- buat manggil pre-loader style -->
+	
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,12 +27,22 @@
 	<script type="text/javascript" src="js3/page3.js"></script>
 	<script type="text/javascript" src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 	
+	<script src="js3/jquery-3.1.1.min.js"></script>
+	<script src="js3/loader.js"></script>
+	<!-- script buat manggil pre-loader -->
 	
 </head>
 <body>
+<!-- pre-loader -->
+	<div id="loader-wrapper"> 
+		<h2>Loading...</h2> 
+		<div id="loader"></div> <
+			<div class="loader-section section-left"></div> 
+			<div class="loader-section section-right"></div> 
+	</div> 	
 
 <div class="container-fluid main">
-
+<!-- navigation bar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -57,11 +72,11 @@
   
   <div class="covertext">
     <div class="col-lg-10" style="float:none; margin:0 auto;">
-      <h1 class="title">Hello World</h1>
-      <h3 class="subtitle">My name is Bagoes, this is my web project page 3 with <a href="https://www.codepolitan.com/tutorial/membuat-website-header-bootstrap-carousel?utm_source=codepolitan&utm_medium=tutorial&utm_campaign=home_loop">Bootstrap Carousel</a></h3>
-    </div>
+      <h1><span class="title">Bagoes Soemargo</span></h1>
+      <h3 class="subtitle">Welcome</h3>
+	</div>
     <div class="col-xs-12 explore">
-      <a href="http://mrbgs.blogspot.com/"><button type="button" class="btn btn-lg explorebtn">EXPLORE</button></a>
+      <a href="http://mrbgs.blogspot.com/"><button type="button" class="btn btn-lg explorebtn">Explore</button></a>
     </div>
   </div>
   
