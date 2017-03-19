@@ -69,15 +69,15 @@
 }
 
 .carousel .background.a {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s5.postimg.org/s91wwp7zb/background_index_1.jpg"); /*https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg */
 }
 
 .carousel .background.b {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s5.postimg.org/b4x2tuajr/IMG_1578a.jpg"); /* https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg */
 }
 
 .carousel .background.c {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s5.postimg.org/5c19hvjzb/IMG_20150602.jpg"); /* https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg */
 }
 
 .carousel-fade .carousel-inner .item {
