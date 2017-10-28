@@ -144,7 +144,7 @@ h1{
 }
 
 .black {
-	color: #black;
+	color: black;
 	}
 	
 .subtitle {
@@ -157,22 +157,24 @@ h1{
   margin: 10px 50px;
   padding: 10px 0;
 }
+/* skip button
 .explore {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
-.explore .btn-lg,
+.explore .btn-lg 
 .explore .btn-lg:hover {
-  border-radius: 30px;
+border-radius: 30px;
   box-shadow: 3px 3px 5px black, 0 0 25px grey, 0 0 5px white;
   padding: 10px 20px;
   font-size: 20px;
   text-shadow: 3px 3px 5px black, 0 0 25px grey, 0 0 5px white;
   background-image: none;
-  background-color: #0033CC;
-  border-color: #0066CC;
+  background-color: #000; 
+  border-color: grey;
   color: #ffffff;
+  
 }
 
 .btn,
@@ -185,6 +187,7 @@ h1{
   margin-bottom: 20px;
   box-shadow: none;
   outline: none;
+  
 }
 
 .btn:focus,
@@ -196,3 +199,4 @@ h1{
   color: #ffffff;
   outline: none;
 }
+*/
