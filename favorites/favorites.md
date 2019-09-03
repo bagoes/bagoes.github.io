@@ -3,12 +3,8 @@ layout: page
 title: Favorites
 permalink: /favorites/
 ---
--
--
+
 Belum ada menu favorites. Tunggu saja update selanjutnya!
--
--
--
 
 Web ini saya buat di Github :
 [Github]( https://github.com/bagoes)
