@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bagoes - Posting Kedua"
+title: "Posting Kedua"
 date: 2019-09-03
 ---
 
