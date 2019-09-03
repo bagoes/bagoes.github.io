@@ -3,14 +3,21 @@ layout: page
 title: Favorites
 permalink: /favorite/
 ---
-
+-
+-
 Belum ada menu favorites. Tunggu saja update selanjutnya!
+-
+-
+-
 
-Mau bikin web seperti saya di Github :
+Web ini saya buat di Github :
 [Github]( https://github.com/bagoes)
 
-Follow me at Instagram :
+Lihat sisi pandang saya di Instagram :
 [Instagram](https://instagram.com/bagoes_s)
 
-Or followe me at Twitter :
+Atau baca bacotan saya di Twitter :
 [Twitter](https://twitter.com/bagoes_s)
+
+Nantikan juga keisengan saya yang lain di Youtube :
+[...](#)
