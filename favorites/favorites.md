@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Favorites
-permalink: /favorite/
+permalink: /favorites/
 ---
 -
 -
