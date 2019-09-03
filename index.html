@@ -1,9 +1,46 @@
----
-layout: default
-title: Bagoes Soemargo
----
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Bagoes Soemargo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<!-- link to css stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="/" data-content="The beginning">Home</a></li>
+      <li><a href="/about" data-content="Curious?">About</a></li>
+      <li><a href="/favorites" data-content="I like it">Favorites</a></li>
+      <li><a href="/blog" data-content="Only the finest">Blog</a></li>
+      <li><a href="/contact" data-content="Don't hesitate">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+<section class="home">
+	<a>
+	<div class="container">
     	<div class="blurb">
 		<h1>Hi, Saya Bagoes Soemargo !</h1>
 		<p>Cuma iseng membuat halaman web.</p>
 		<p><em>Ingin tau tentang saya? Klik garis menu dipojok!</em></p>
 	</div><!-- /.blurb -->
+	</div><!-- /.container -->
+	</a>
+  <div class="open-overlay">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+</section>
+<!-- link to jquery -->
+<script src='js/jquery-3.4.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+<!-- link to index javascript -->
+<script  src="js/index.js"></script>
+
+</body>
+</html>
