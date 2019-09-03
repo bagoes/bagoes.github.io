@@ -1,2 +1,18 @@
-	name: Bagoes Soemargo
-	markdown: kramdown
+# Jekyll!
+name: Bagoes Soemargo
+markdown: kramdown
+title: bagoes
+email: bagoessoemargo@ymail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog pribadi cuma buat iseng saja.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: bagoes_s
+github_username:  bagoes
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title
