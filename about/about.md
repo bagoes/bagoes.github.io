@@ -4,16 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Masih malu-malu buat mengenalkan diri. Tunggu aja kalau sudah percaya diri.
+Masih malu-malu buat mengenalkan diri. Tunggu saja kalau saya sudah percaya diri.
 
-Web ini saya buat di Github :
-[Github]( https://github.com/bagoes)
+Blog ini akan diisi dengan cerita-cerita saya yang mungkin ga jelas. Jadi lebih baik jangan ikuti blog ini!
 
-Lihat sisi pandang saya di Instagram :
-[Instagram](https://instagram.com/bagoes_s)
+Isi dari blog ini bakalan berisi kalimat yang tidak sesuai dengan aturan, dari bahasa yang digunakan campur aduk bisa membuat kalian yang baca mual.
 
-Atau baca bacotan saya di Twitter :
-[Twitter](https://twitter.com/bagoes_s)
+Blog ini juga berisi konten dewasa, jadi sebaiknya untuk anak-anak mesti didampingi pasangannya masing-masing.
 
-Nantikan juga keisengan saya yang lain di Youtube :
-[...](#)
+Bicara pasangan, ternyata saya juga belum punya!
+
+Terima kasih, sekian dan [...](#) to be continue
+
+
