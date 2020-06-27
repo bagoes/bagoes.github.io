@@ -39,3 +39,5 @@ Silahkan komentar & Terima kasih sudah tersesat kesini.
 [ref-1]: https://help.github.com/
 [ref-2]: https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages
 [p2]: http://bagoes.github.io/blog/2019/09/03/posting-kedua
+
+*edited 10 June 2020
