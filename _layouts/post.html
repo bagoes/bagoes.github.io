@@ -9,7 +9,7 @@ comments: true
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.minima.date_format | default: " %-d %b %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
@@ -23,13 +23,18 @@ comments: true
 <!-- Post info -->
 			<div class="noteinfo">
 			<!-- include some categories and tags maybe? -->
+			{{ page.categories }}
+			• {%- assign date_format = site.minima.date_format | default: " %-d %b %Y" -%}
+        {{ page.update | date: date_format }}
 			</div>
 
 			<hr>
 
 			<!-- Post comments -->
 			<div class="notecomments">
+			
 				{% include disqus_comments.html %}	 
+			
 			</div>
  
 

@@ -1,22 +1,24 @@
 ---
 layout: post
 title: "Posting Ketiga"
+author: Bagoes
 date: 2019-09-08
-categories: update
+update: 2020-06-28
+categories: cerita
 ---
-Hey,
-Pada `Posting Ketiga` ini masih ga jelas. Belum ada ide konten tentang apa yang akan saya ceritkan. Namun terbesit sebuah pertanyaan berikut di benak saya :
+Halo,
 
-`Hari gini masih ngeblog?`
+Pada `Posting Ketiga` ini masih belum ada ide konten tentang apa yang akan saya tulis. 
 
-Pasti masih banyak yang bertanya demikian, di zaman yang udah semakin edan ini orang lain kebanyakan main vlog bukan blog.
+`Hari gini ngeblog?`
 
-Cerita mengenai [blog saya][my-blog] tidak ada yang istimewa, disini saya cuma iseng aja bikin blog, tujuannya juga cuma sekedar ingin berkreativitas.
+Disini coba nambahin gambar dalam konten, ternyata cukup mudah. Tapi ngatur tampilannya yang agak susah, harus coding stylesheet atau CSS lain kali aja. Perintahnya gini `![gambar](/assets/JoeRight-logo-white.png)`
 
-Alasan lain supaya minat baca orang Indonesia meningkat.
+Hasilnya!
+![gambar](/assets/JoeRight-logo-white.png)
 
-Sebetulnya saya juga berencana membuat vlog, tapi saat ini masih sibuk ngulik ini blog. Banyak yang belum saya pahami menggunakan Github, jadi sebisa-bisanya saja jadinya `kalimatnya agak rancu ya? ya kumaha dewek wae lah!` 
+Tulisan saya lainnya ada disini [BGS file][my-blog], tidak ada yang istimewa cuma iseng aja bikin blog sekedar ingin berkreativitas.
 
-Sekian dulu ceritanya, selanjutnya mungkin akan saya tulis tools apa saja untuk membuat blog ini... see you next post! 
+Sekian dulu ceritanya. 
 
-[my-blog]: https://bagoes.github.io
+[my-blog]: https://bgsfile.blogspot.com

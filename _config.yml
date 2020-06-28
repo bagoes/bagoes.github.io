@@ -11,8 +11,10 @@ twitter_username: bagoes_s
 github_username:  bagoes
 
 # Build settings
-theme: minima
+theme: jekyll-klise
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 permalink: /blog/:year/:month/:day/:title
