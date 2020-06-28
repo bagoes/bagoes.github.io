@@ -11,7 +11,7 @@ twitter_username: bagoes_s
 github_username:  bagoes
 
 # Build settings
-theme: jekyll-klise
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
