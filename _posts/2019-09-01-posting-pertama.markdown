@@ -2,10 +2,10 @@
 layout: post
 title:  "Posting Pertama"
 date:   2019-08-31 23:00:00 +0700
-categories: edit
-edit:	2020-08-08 12:00:00 +0700
+categories: update
+update:	2020-08-08 12:00:00 +0700
 ---
-Hallo,
+Halo,
 
 Disini saya sedang membuat blog menggunakan jekyll pada github. Saya sebetulnya tidak ahli dalam membuat web atau blog, saat ini hanya iseng saja. Blog ini telah saya posting beberapa tahun kebelakang, namun saya sudah lupa bagaimana dulu saya bisa posting blog ini dan tidak mencatatnya. Oleh sebab itu, saya edit posting pertama ini mencoba mencatatnya sebagai isi blog ini.
 
