@@ -125,22 +125,37 @@ nav li a:hover:after {
 }
 
 nav li:nth-of-type(1) {
+  background-image: url(https://i.postimg.cc/zX6Z33tL/bagoes-github-Artboard-1.png);
+  background-size: cover;
+  background-position: center center;
   background-color: #29363B
 }
 
 nav li:nth-of-type(2) {
+  background-image: url(https://i.postimg.cc/3NbMXw3c/bagoes-github-Artboard-2.png);
+  background-size: cover;
+  background-position: center center;
   background-color: #EA495F
 }
 
 nav li:nth-of-type(3) {
+  background-image: url(https://i.postimg.cc/448TkWpQ/bagoes-github-Artboard-3.png);
+  background-size: cover;
+  background-position: center center;
   background-color: #F4837D
 }
 
 nav li:nth-of-type(4) {
+  background-image: url(https://i.postimg.cc/FzK5kSXS/bagoes-github-Artboard-4.png);
+  background-size: cover;
+  background-position: center center;
   background-color: #FDCEA9
 }
 
 nav li:nth-of-type(5) {
+  background-image: url(https://i.postimg.cc/GhHncvQw/bagoes-github-Artboard-5.png);
+  background-size: cover;
+  background-position: center center;
   background-color: #99B998
 }
 
