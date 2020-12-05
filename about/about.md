@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: "About"
 permalink: /about/
 ---
 
@@ -10,6 +10,6 @@ Saya akan sangat apresiasi apabila kalian berkunjung kesini dan juga memberikan 
 
 Silahkan [kontak saya][contact].
 
-[contact]: http://bagoes.github.io/contact/
+[contact]: /contact/
 
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Posting Kedua"
 date: 2019-09-03
+tag: "iseng"
 categories: update
 ---
 Hi,

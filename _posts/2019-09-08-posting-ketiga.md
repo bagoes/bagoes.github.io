@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Posting Ketiga"
+tag: "iseng"
 author: Bagoes
 date: 2019-09-08
 update: 2020-06-28
@@ -17,8 +18,8 @@ Disini coba nambahin gambar dalam konten, ternyata cukup mudah. Tapi ngatur tamp
 Hasilnya!
 ![gambar](/assets/JoeRight-logo-white.png)
 
-Tulisan saya lainnya ada disini [BGS file][my-blog], tidak ada yang istimewa cuma iseng aja bikin blog sekedar ingin berkreativitas.
+Tulisan saya lainnya ada disini [BGS file][my-blog], ngga ada yang istimewa cuma iseng aja bikin blog sekedar ingin berkreativitas.
 
 Sekian dulu ceritanya. 
 
-[my-blog]: https://bgsfile.blogspot.com
+[my-blog]: https://bgs.web.id
