@@ -2,12 +2,12 @@
 name: Bagoes Soemargo
 markdown: kramdown
 title: bagoes
-email: bagoessoemargo@ymail.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog pribadi cuma buat iseng saja.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://bgs.web.id" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bagoes_s
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
 github_username:  bagoes
 
 # Build settings
