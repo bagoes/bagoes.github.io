@@ -254,7 +254,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
-  minima
 
 BUNDLED WITH
-   2.2.4
+   2.1.4

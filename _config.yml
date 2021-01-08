@@ -1,5 +1,5 @@
 # Jekyll!
-name: bagoes
+name: Bagoes Soemargo
 markdown: kramdown
 title: bagoes
 email: 
@@ -12,12 +12,6 @@ github_username:  bagoes
 
 # Build settings
 theme: minima
-minima:
-  skin: dark
-  social_links:
-    twitter: bagoes_s
-    github: bagoes
-    instagram: bagoes_s
 plugins:
   - jekyll-feed
   - jekyll-sitemap
