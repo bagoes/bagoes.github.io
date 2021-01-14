@@ -16,5 +16,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-coffeescript
+  
+sass:
+    style: compressed
+    
 permalink: /blog/:year/:month/:day/:title
