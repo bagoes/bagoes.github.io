@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html >
 <head>
+  <!-- Required meta tags -->
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Bagoes</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<!-- link to css stylesheet -->
+
+ 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- CSS stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
 
 <section class="home">
-	<a>
-    <div class="container">
-        <div class="blurb">
-          <h1>SELAMAT DATANG</h1>
-          <p>Ini adalah website tempat saya belajar web programming.</p>
-          <br/>
-          <br/>
-          <br/>
-          <p><em>Silahkan klik tombol menu dipojok sebelah kanan atas untuk melihat halaman yang lain.</em> </p>
-        </div><!-- /.blurb -->
-      </div><!-- /.container -->
-	</a>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+    
+    <main class="my-auto pt-5">
+      <h1 class="display-1">WELCOME</h1>
+      
+      <h3>On the other side of my workbench</h3>
+        
+    </main>
+
+    <footer class="mt-auto text-white-50">     
+      <div class="row g-0 justify-content-center">
+        <div class="col-5">
+          <figure class="text-end">
+            <blockquote class="blockquote">
+              <p class="fs-md">Create something, in silence.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Someone you didn't know <cite title="Si Ganteng Kalem">!!!</cite>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-2 ">
+          <cite title="Bagoes"><img src="img/bgs-avatar.png" class="img-fluid"></cite>
+        </div>
+      </div>
+    </footer>
+    
+  </div><!-- End cover-container -->
+  
   <div class="open-overlay">
     <span class="bar-top"></span>
     <span class="bar-middle"></span>
     <span class="bar-bottom"></span>
+    <p>Click</p>
   </div>
+	
 </section>
 
 <div class="overlay-navigation">
   <nav role="navigation">
     <ul>
-      <li><a href="/" data-content="Balik ke halaman awal">Home</a></li>
-      <li><a href="/about" data-content="Mau tau tentang situs web ini?">About</a></li>
-      <li><a href="/contact" data-content="Mau ngobrol sama saya?">Contact</a></li>
-      <li><a href="/favorites" data-content="Mau tau apa yang saya suka?">Favorites</a></li>
-      <li><a href="/blog" data-content="Mau tau apa yang saya lakukan?">Blog</a></li>
+      <li><a href="/" class="link-light" data-content="Balik ke halaman awal">Home</a></li>
+      <li><a href="/about" class="link-light" data-content="Mau tau tentang situs web ini?">About</a></li>
+      <li><a href="/contact" class="link-light" data-content="Mau ngobrol sama saya?">Contact</a></li>
+      <li><a href="/favorites" class="link-light" data-content="Mau tau apa yang saya suka?">Favorites</a></li>
+      <li><a href="/blog" class="link-light" data-content="Mau tau apa yang saya lakukan?">Blog</a></li>
     </ul>
   </nav>
 </div>
 
-<!-- link to jquery -->
+<!-- jquery -->
 <script src='js/jquery-3.4.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
-<!-- link to index javascript -->
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- index javascript -->
 <script  src="js/index.js"></script>
 
 </body>
