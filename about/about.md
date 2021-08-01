@@ -4,11 +4,11 @@ title: "About"
 permalink: /about/
 ---
 
-Situs web ini merupakan kegiatan saya dalam belajar coding atau web programming, dan isi maupun artikel blog ini saya buat untuk belajar menulis juga berbagi pengalaman. Situs web ini adalah halaman GitHub. Saya disini bukan seorang programmer maupun blogger, ini cuma project iseng saya sebagai hobi.
+Situs web ini berisi kegiatan saya dalam coding atau web programming, dan isi maupun artikel disini saya catat sebagai  penggunaan pribadi. Adapun referensi yang merujuk pada isi maupun artikel disini, saya kembalikan ke sumber aslinya. Mungkin bagi para programmer hal yang saya tulis seperti ini adalah biasa saja, namun bagi saya pengalaman ini sebagai hobi yang luar biasa dimana saya bukanlah seorang programmer.
 
-Saya akan sangat apresiasi apabila kalian berkunjung kesini dan juga memberikan masukan kritik maupun saran. Atau kalian ada ide project lain dan ingin bekerja sama dengan saya? 
+Silahkan berikan kritik maupun saran. 
 
-Silahkan [kontak saya][contact].
+[kontak saya][contact].
 
 [contact]: /contact/
 
