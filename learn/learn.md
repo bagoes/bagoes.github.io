@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Work"
-permalink: /work/
+title: "Learn"
+permalink: /learn/
 ---
 
-Berikut ini beberapa tampilan kegiatan yang saya lakukan : 
+Berikut ini beberapa hasil kegiatan yang saya pelajari : 
 - [portfolio 2](https://bagoes.github.io/portfolio-2/)  
 - [portfolio 3](https://bagoes.github.io/portfolio-3/)  
 - [company-profile](https://bagoes.github.io/company-profile/)  
