@@ -1,25 +1,39 @@
-
+a:link  {
+    color: orange; 
+    text-decoration: none;
+}
+a:hover {
+    color: darkgoldenrod; 
+}
+a:visited {
+    color: greenyellow; 
+}
+a:visited :hover    {
+    color: yellowgreen; 
+}
 
 body    {
     margin-top: 50px;
-    min-height: 92vh;
+    min-height: 100vh;
+    color: whitesmoke;
+    background-color: darkslategray;
 }
 
 
 footer  {
-    position: inherit ;
-    bottom: 0;
     width: 100%;
-    height: 60px;
-    background-color: #999;
-    padding-top: 20px;
+    background-color: rgb(35, 35, 70);
 }
 
+footer  a   i   {
+    font-size: 1.5rem;
+}
+
+
 footer  p   {
-    color: #eee;
     font-size: 0.9em;
 }
 
 footer p i  {
-    color:  salmon;
+    color:  hotpink;
 }
