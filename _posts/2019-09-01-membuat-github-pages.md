@@ -7,7 +7,7 @@ categories: learn
 update:	
 author: bagoes
 ---
-Posting ini hanya sebagai contoh membuat blog di Github Pages menggunakan Jekyll. Bagaimana cara membuatnya dari [sini][link-github]{:target="_blank"}.
+Tulisan ini hanya sebagai contoh membuat blog di Github Pages menggunakan Jekyll. Bagaimana cara membuatnya dari [sini][link-github]{:target="_blank"}.
 
 Ini beberapa poin catatan bagaimana cara menjalankan website ini secara lokal:
 1. Download & install GitHubDesktop sebagai aplikasi antar muka pada komputer.

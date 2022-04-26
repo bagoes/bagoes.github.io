@@ -7,7 +7,7 @@ categories: learn
 update:	
 author: bagoes
 ---
-Posting ini hanya untuk mencatat pelajaran telah membuat landing page menggunakan Boostrap 5.  
+Tulisan ini adalah catatan saya telah membuat landing page menggunakan Boostrap 5.  
 > Pada sumber referensi menggunakan Bootstrap 4 dan saya telah melakukan penyesuaian   
 
 Catatan perubahan ada pada blog saya yang lain disini :  

@@ -7,7 +7,7 @@ categories: learn
 update:	
 author: bagoes
 ---
-Posting ini hanya untuk mencatat pelajaran telah membuat Lightbox Gallery menggunakan CSS.  
+Tulisan ini adalah catatan saya telah membuat Lightbox Gallery menggunakan CSS.  
 
 Pratinjau hasilnya bisa dilihat dari link ini :   
 👀 [Lightbox Gallery](/lightbox-gallery/ "preview"){:target="_blank"}  

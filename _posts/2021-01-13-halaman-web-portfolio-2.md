@@ -7,7 +7,7 @@ categories: learn
 update:	
 author: bagoes
 ---
-Posting ini hanya untuk mencatat pelajaran telah membuat halaman web portfolio menggunakan Boostrap 4.  
+Tulisan ini adalah catatan saya telah membuat halaman web portfolio menggunakan Boostrap 4.  
 
 Pratinjau hasilnya bisa dilihat dari link ini :   
 👀 [Portfolio 2](/portfolio-2/ "preview"){:target="_blank"}  

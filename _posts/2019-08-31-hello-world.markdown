@@ -7,4 +7,4 @@ categories: learn
 update:	
 ---
 Halo,
-Ini adalah posting pertama saya menggunakan Jekyll pada Github Pages.
+Ini adalah tulisan pertama saya menggunakan Jekyll pada Github Pages.

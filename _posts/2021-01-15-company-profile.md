@@ -7,7 +7,7 @@ categories: learn
 update:	
 author: bagoes
 ---
-Posting ini hanya untuk mencatat pelajaran telah membuat website Company Profile menggunakan Materialize.  
+Tulisan ini adalah catatan saya telah membuat website Company Profile menggunakan Materialize.  
 
 Pratinjau hasilnya bisa dilihat dari link ini :   
 👀 [Company Profile](/company-profile/ "preview"){:target="_blank"}  
