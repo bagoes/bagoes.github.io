@@ -16,13 +16,13 @@ body    {
     margin-top: 50px;
     min-height: 100vh;
     color: whitesmoke;
-    background-color: darkslategray;
+    background-color: rgb(36, 36, 36);
 }
 
 
 footer  {
     width: 100%;
-    background-color: rgb(35, 35, 70);
+    background-color: rgb(27, 27, 27);
 }
 
 footer  a   i   {
