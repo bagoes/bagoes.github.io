@@ -240,14 +240,68 @@ attribute: src, alt, title, width, height
 ## 10. Table
 
 struktur tabel: baris & kolom
-- baris yang berada pada haris horizontal
-- kolom yang berada pada baris vertikal
-- cell yang berada pada perpotongan atau pertemuan baris dan kolom 
+- baris: kotak-kotak yang berada pada garis horizontal
+- kolom: kotak-kotak yang berada pada garis vertikal
+- cell: kotak yang berada pada perpotongan atau pertemuan baris dan kolom 
+
+`<table></table>`
+
+```html
+  <table>
+    <tr> // table row
+      <td>...</td> // table data
+    </tr>
+  </table>
+```
+
+---
+## 11. Table Merging
+
+`colspan`
+
+`rowspan`
 
 [latihan8][link8]
 
 ---
-## 11. Table Merging
+## 12. Form
+
+`<form></form>`
+
+```html
+  <form>
+    ...
+      <!-- elemen form -->
+    ...
+  </form>
+```
+
+Elemen Form
+
+`input`
+
+`<input type="">`
+
+attribute: text, password, radio, checkbox, ~~submit~~, ~~reset~~, ~~button~~
+
+`button`
+
+`<button type=""></button>`
+
+attribute: submit, reset, button
+
+`label`
+
+---
+## 13. Form (lanjutan)
+
+`textarea`
+
+`<textarea></textarea>`
+
+`select`
+
+`<select></select>`
 
 [latihan9][link9]
 
