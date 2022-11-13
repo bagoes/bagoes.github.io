@@ -2,11 +2,11 @@
 layout: post
 title:  "Belajar CSS Dasar"
 date:   2022-10-25 04:00:00 +0700
-tag: "web"
-author: bagoes
+update: 2022-11-14 02:30:00 +0700
+category: "web"
+tag: "css"
+author: Bagoes
 ---
-# CSS Dasar
-
 ## 1. Pendahuluan
 
 CSS : Cascading Style stylesheet
@@ -20,6 +20,7 @@ Mekanisme sederhana yang mengatur gaya / style (contoh: huruf, warna, spasi, dll
 - 1 CSS dapat digunakan untuk banyak halaman HTML.
 - 1 halaman HTML dapat terlihat berbeda jika menggunakan CSS yang berbeda pula.
 
+---
 ## 2. Anatomi CSS 
 
 `selector { property: value; }`  
@@ -38,6 +39,7 @@ Terdapat banyak sekali lebih dari 350, referensinya bisa mengunjungi link beriku
 
 <https://css-tricks.com/almanac>{:target="_blank"}
 
+---
 ## 3. Penempatan CSS
 
 Embed  
@@ -49,8 +51,9 @@ Inline
 Eksternal  
 `<link rel="stylesheet" href="style.css">`
 
-latihan1
+[latihan1]
 
+---
 ## 4. Font Styling
 
 - **font-family**  
@@ -66,8 +69,9 @@ latihan1
 - **line-height**  
   mengatur spasi antar baris
 
-latihan2
+[latihan2]
 
+---
 ## 5. Text Styling
 
 - **color**  
@@ -85,8 +89,9 @@ latihan2
 - **word-spacing**  
   mengatur spasi antar kata
 
-latihan3
+[latihan3]
 
+---
 ## 6. Background
 
 - **background-color**  
@@ -98,8 +103,9 @@ latihan3
 - **background-repeat**  
   mengatur jenis pengulangan gambar pada background
 
-latihan4
+[latihan4]
 
+---
 ## 7. Selector
 
 digunakan pada CSS untuk mengenali sebuah elemen HTML yang akan diberi style
@@ -117,8 +123,9 @@ digunakan pada CSS untuk mengenali sebuah elemen HTML yang akan diberi style
 
 **complex selector**
 
-latihan5
+[latihan5]
 
+---
 ## 8. Pseudo Class
 
 kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada *"keadaan tertentu"* dari elemen tersebut
@@ -156,8 +163,9 @@ kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendef
   **:last-of-type**  
   memilih elemen terakhir dari sebuah jenis / tipe tag
 
-latihan6
+[latihan6]
 
+---
 ## 9. Inheritance
 
 sebuah elemen mewarisi **beberapa** nilai dari properti yang dimiliki oleh elemen parent-nya
@@ -175,8 +183,9 @@ sebuah elemen mewarisi **beberapa** nilai dari properti yang dimiliki oleh eleme
 - visibility
 - white-space
 
-latihan7
+[latihan7]
 
+---
 ## 10. Specificity
 
 setiap deklarasi CSS (selector) memiliki **berat** yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector
@@ -184,4 +193,16 @@ setiap deklarasi CSS (selector) memiliki **berat** yang berbeda. Berat tersebut 
 - buat elemen yang diinginkan agar menjadi lebih **spesifik**
 - tambahkan beban pada elemen tersebut agar semakin **berat**
 
-> Ini adalah rangkuman mempelajari serial CSS Dasar di WPU, lebih jelasnya silahkan kunjungi [channel WPU](https://www.youtube.com/playlist?list=PLFIM0718LjIUBrbm6Gdh6k7ZUvPIAZm7p)
+---
+Referensi:
+
+[channel WPU](https://www.youtube.com/playlist?list=PLFIM0718LjIUBrbm6Gdh6k7ZUvPIAZm7p)
+
+[latihan1]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan1
+[latihan2]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan2
+[latihan3]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan3
+[latihan4]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan4
+[latihan5]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan5
+[latihan6]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan6
+[latihan7]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan7
+[latihan8]: https://github.com/bagoes/belajar-css/tree/master/WPU/latihan8
