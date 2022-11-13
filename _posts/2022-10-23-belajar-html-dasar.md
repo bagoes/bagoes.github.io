@@ -2,11 +2,10 @@
 layout: post
 title:  "Belajar HTML Dasar"
 date:   2022-10-23 04:00:00 +0700
-update: 2022-11-12 22:00:00 +0700
-tag: "web"
-author: bagoes
----
-# HTML Dasar
+update: 2022-11-14 02:00:00 +0700
+category: "web"
+tag: "html"
+author: Bagoes
 ---
 ## 1. Pendahuluan
 
