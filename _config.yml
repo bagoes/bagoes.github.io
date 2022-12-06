@@ -12,12 +12,17 @@ github_username:  bagoes
 
 # Build settings
 theme: minima
+minima:
+  skin: classic
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-coffeescript
-  
+highlighter: none
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
 sass:
     style: compressed
     
