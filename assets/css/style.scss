@@ -1,6 +1,6 @@
 ---
 ---
 
-@import
+@import 
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
