@@ -27,3 +27,9 @@ sass:
     style: compressed
     
 permalink: /blog/:year/:month/:day/:title
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
