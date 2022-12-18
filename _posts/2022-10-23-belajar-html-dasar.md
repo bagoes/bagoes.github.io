@@ -7,6 +7,8 @@ category: "web"
 tag: "html"
 author: Bagoes
 ---
+Berikut ini merupakan rangkuman saya untuk belajar HTML, lebih jelasnya kunjungi tautan referensi pada akhir tulisan ini.
+
 ## 1. Pendahuluan
 
 HTML : Hypertext Markup Language
@@ -15,7 +17,7 @@ Tim Berners-Lee : HTTP, HTML, WWW, Web Browser, Web Server, Web Page
 
 W3C : World Wide Web Consortium
 
-<https://www.w3c.org>{:target="_blank"}
+<https://www.w3.org>{:target="_blank"}
 
 ---
 ## 2. Hello World!
@@ -23,18 +25,18 @@ W3C : World Wide Web Consortium
 Struktur dasar HTML
 
 ```html
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
 
-    </body>
-    </html>
+</body>
+</html>
 ```
 
-[latihan1][link1]
+Latihan 1: [pratinjau][1]{:target="_blank"}
 
 ---
 ## 3. Code Editor
@@ -43,7 +45,7 @@ Struktur dasar HTML
 - Notepad++
 - VS Code Editor
 
-[latihan2][link2]
+Latihan 2: [pratinjau 1][2-1]{:target="_blank"}, [pratinjau 2][2-2]{:target="_blank"}
 
 ---
 ## 4. Tag
@@ -117,8 +119,8 @@ Struktur dasar HTML
 ### struktur tag
 
 ```html
-    <namatag atribut="nilai">
-    <body bgcolor="lightblue">
+<namatag atribut="nilai">
+<body bgcolor="lightblue">
 ```
 
 ### artibut global
@@ -147,21 +149,21 @@ Struktur dasar HTML
 
   `<strong></strong>, <em></em>`
 
-[latihan3][link3]
+Latihan 3: [pratinjau][3]{:target="_blank"}
 
 ---
 ## 6. Heading
 
 ```html
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 ```
 
-[latihan4][link4]
+Latihan 4: [pratinjau][4]{:target="_blank"}
 
 ---
 ## 7. List
@@ -178,7 +180,7 @@ Struktur dasar HTML
 
   `<dl></dl>`
 
-[latihan5][link5]
+Latihan 5: [pratinjau][5]{:target="_blank"}
 
 ---
 ## 8. Hyperlink
@@ -219,7 +221,7 @@ Struktur dasar HTML
 
   `_top`
 
-[latihan6][link6]
+Latihan 6: [pratinjau 1][6-1]{:target="_blank"}, [pratinjau 2][6-2]{:target="_blank"}, [pratinjau 3][6-3]{:target="_blank"}, [pratinjau 4][6-4]{:target="_blank"}, [pratinjau 5][6-5]{:target="_blank"}
 
 ---
 ## 9. Image
@@ -233,7 +235,7 @@ attribute: src, alt, title, width, height
 
 `<img src="" alt="" title="" width="" height="">`
 
-[latihan7][link7]
+Latihan 7: [pratinjau][7]{:target="_blank"}
 
 ---
 ## 10. Table
@@ -246,11 +248,11 @@ struktur tabel: baris & kolom
 `<table></table>`
 
 ```html
-  <table>
-    <tr> // table row
-      <td>...</td> // table data
-    </tr>
-  </table>
+<table>
+  <tr> // table row
+    <td>...</td> // table data
+  </tr>
+</table>
 ```
 
 ---
@@ -260,7 +262,7 @@ struktur tabel: baris & kolom
 
 `rowspan`
 
-[latihan8][link8]
+Latihan 8: [pratinjau 1][8-1]{:target="_blank"}, [pratinjau 2][8-2]{:target="_blank"}, [pratinjau 3][8-3]{:target="_blank"}
 
 ---
 ## 12. Form
@@ -268,11 +270,11 @@ struktur tabel: baris & kolom
 `<form></form>`
 
 ```html
-  <form>
-    ...
-      <!-- elemen form -->
-    ...
-  </form>
+<form>
+  ...
+    <!-- elemen form -->
+  ...
+</form>
 ```
 
 Elemen Form
@@ -302,20 +304,30 @@ attribute: submit, reset, button
 
 `<select></select>`
 
-[latihan9][link9]
+Latihan 9: [pratinjau 1][9-1]{:target="_blank"}, [pratinjau 2][9-2]{:target="_blank"}
 
 ---
+Selain tautan untuk melihat pratinjau setiap latihan di codepen, berikut ini disertakan tautan [source code](https://github.com/bagoes/belajar-html/tree/master/WPU/) di GitHub.
+
 Referensi:
 
 [Channel WPU](https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F)
 
 
-[link1]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan1
-[link2]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan2
-[link3]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan3
-[link4]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan4
-[link5]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan5
-[link6]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan6
-[link7]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan7
-[link8]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan8
-[link9]: https://github.com/bagoes/belajar-html/tree/master/WPU/latihan9
+[1]: https://codepen.io/bagoes-the-bold/pen/ExpYGBv
+[2-1]: https://codepen.io/bagoes-the-bold/pen/qByWGNY
+[2-2]: https://codepen.io/bagoes-the-bold/pen/xxJKNqj
+[3]: https://codepen.io/bagoes-the-bold/pen/rNrBgwG
+[4]: https://codepen.io/bagoes-the-bold/pen/vYaBwZP
+[5]: https://codepen.io/bagoes-the-bold/pen/gOjObPv
+[6-1]: https://codepen.io/bagoes-the-bold/pen/XWBWJdJ
+[6-2]: https://codepen.io/bagoes-the-bold/pen/vYaYEGJ
+[6-3]: https://codepen.io/bagoes-the-bold/pen/QWBWwNz
+[6-4]: https://codepen.io/bagoes-the-bold/pen/rNrNaLa
+[6-5]: https://codepen.io/bagoes-the-bold/pen/gOjObMe
+[7]: https://codepen.io/bagoes-the-bold/pen/PoBowGe
+[8-1]: https://codepen.io/bagoes-the-bold/pen/WNKNbGL
+[8-2]: https://codepen.io/bagoes-the-bold/pen/eYjYmBY
+[8-3]: https://codepen.io/bagoes-the-bold/pen/oNMNgYZ
+[9-1]: https://codepen.io/bagoes-the-bold/pen/zYLYxNr
+[9-2]: https://codepen.io/bagoes-the-bold/pen/RwBwNKx
