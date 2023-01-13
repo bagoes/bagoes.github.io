@@ -3,45 +3,49 @@ layout: default
 comments: true
 # other options
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<main class="page-content" aria-label="Content">
+  <div class="container">
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        posted {%- assign date_format = site.minima.date_format | default: " %-b %d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span> 
-      {%- endif -%}
-    </p>
-  </header>
+      <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            posted {%- assign date_format = site.minima.date_format | default: " %-b %d, %Y" -%}
+            {{ page.date | date: date_format }}
+          </time>
+          {%- if page.author -%}
+            by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span> 
+          {%- endif -%}
+        </p>
+      </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      <!-- Post info -->
+      <div class="noteinfo">
+        <p class="post-meta">
+          {%- if page.update -%}
+            updated {%- assign date_format = site.minima.date_format | default: " %-b %d, %Y" -%}
+            {{ page.update | date: date_format }}
+          {%- endif -%}
+        </p>
+        <hr>
+        <!-- include some categories and tags maybe? -->
+        <p class="post-meta">
+          {{ page.categories }} {{ page.tags }}
+        </p>
+      </div>
+      <hr>
+
+      <!-- Post comments -->
+      <div class="notecomments">
+        {% include disqus_comments.html %}	
+      </div>
+    
+      <a class="u-url" href="{{ page.url | relative_url }}" ></a>
+    </article>
   </div>
-
-  <!-- Post info -->
-  <div class="noteinfo">
-    <p class="post-meta">
-      {%- if page.update -%}
-        updated {%- assign date_format = site.minima.date_format | default: " %-b %d, %Y" -%}
-        {{ page.update | date: date_format }}
-      {%- endif -%}
-    </p>
-		<hr>
-    <!-- include some categories and tags maybe? -->
-    <p class="post-meta">
-      {{ page.categories }} {{ page.tags }}
-    </p>
-  </div>
-  <hr>
-
-  <!-- Post comments -->
-  <div class="notecomments">
-    {% include disqus_comments.html %}	
-  </div>
- 
-  <a class="u-url" href="{{ page.url | relative_url }}" ></a>
-</article>
+</main>

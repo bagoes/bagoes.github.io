@@ -4,3 +4,8 @@
 @import 
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
