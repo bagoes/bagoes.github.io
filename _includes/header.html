@@ -1,6 +1,6 @@
 <header>
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-light-emphasis">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="/favicon.ico" alt="" width="30" height="30"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@
             <a href="/blog/" {% if page.url == "/blog/" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %}>Blog</a>
           </li>
           <li class="nav-item">
-            <a href="/work/" {% if page.url == "/work/" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %}>Work</a>
+            <a href="#" class="nav-link disabled">Disabled</a>
           </li>
           <li class="nav-item">
             <a href="/project/" {% if page.url == "/project/" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %}>Project</a>

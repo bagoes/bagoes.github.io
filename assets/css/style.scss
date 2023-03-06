@@ -5,7 +5,9 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+nav ul li a:visited {
+  color: #adb5bd;
+}
 .jumbotron {
   padding-top: 5rem;
-  background-color: #e2edff;
 }
