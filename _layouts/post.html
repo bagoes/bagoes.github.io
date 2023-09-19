@@ -42,7 +42,9 @@ comments: true
 
       <!-- Post comments -->
       <div class="notecomments">
-        {% include disqus_comments.html %}	
+        {% if page.comments %}
+          {% include disqus_comments.html %}	
+        {% endif %}
       </div>
     
       <a class="u-url" href="{{ page.url | relative_url }}" ></a>
